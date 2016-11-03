@@ -5,7 +5,7 @@ import {User} from "./user";
 
 @Component({
   // moduleId: module.id,
-  selector: 'my-app',
+  selector: 'person-app',
   templateUrl: 'app.component.html',
 })
 export class AppComponent implements OnInit {
