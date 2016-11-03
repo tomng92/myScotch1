@@ -22,6 +22,7 @@ import { CustomerComponent } from './customer/customer.component';
 
   providers: [],
 
-  bootstrap: [CustomerComponent, MytabComponent]
+  // bootstrap: [CustomerComponent, AppComponent, MytabComponent]
+  bootstrap: [MytabComponent]
 })
 export class AppModule { }
